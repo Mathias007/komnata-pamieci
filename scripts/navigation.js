@@ -1,5 +1,3 @@
-const menuBars = document.getElementById("menu-bars");
-const overlay = document.getElementById("overlay");
 const navigationElements = document.querySelectorAll("#navigation > ul > li");
 
 // Control Navigation Animation
@@ -12,7 +10,7 @@ function navAnimation(direction1, direction2) {
     });
 }
 
-function toggleNav() {
+export function toggleNav(menuBars, overlay) {
     // Toggle: Menu Bars Open/Closed
     menuBars.classList.toggle("change");
     // Toggle: Menu Active
@@ -29,9 +27,3 @@ function toggleNav() {
         navAnimation("in", "out");
     }
 }
-
-// Event Listeners
-menuBars.addEventListener("click", toggleNav);
-navigationElements.forEach((navEl) => {
-    navEl.addEventListener("click", toggleNav);
-});

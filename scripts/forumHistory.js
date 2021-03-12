@@ -1,13 +1,10 @@
 const sectionElements = document.querySelectorAll("section");
-const navigationElements = document.querySelectorAll("#navigation > ul > li");
-
-const historyDataURL = "./history-data/history.json";
 
 let topicUrlPath = "";
 let poolUrlPath = "";
 
 // Get History Data
-async function getHistoryData(dataURL) {
+export async function getHistoryData(dataURL) {
     await fetch(dataURL)
         .then((response) => {
             return response.json();
@@ -58,6 +55,3 @@ function generateHistoryYearSections(forumHistory) {
         });
     }
 }
-
-// On Load
-getHistoryData(historyDataURL);
