@@ -1,3 +1,27 @@
+import { navigation } from "../data/navigation.js";
+
+const navigationList = document.querySelector("#navigation > ul");
+
+// Generate Navigation
+export function generateNavigation() {
+    navigation.map((element, index) => {
+        const { id, initialClass, href, name } = element;
+
+        const navLiEl = document.createElement("li");
+        navLiEl.classList.add(initialClass);
+        navLiEl.id = id;
+
+        const anchorEl = document.createElement("a");
+        anchorEl.href = href;
+        anchorEl.textContent = name;
+
+        navLiEl.appendChild(anchorEl);
+        navigationList.appendChild(navLiEl);
+    });
+}
+
+generateNavigation();
+
 const navigationElements = document.querySelectorAll("#navigation > ul > li");
 
 // Control Navigation Animation
