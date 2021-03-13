@@ -281,7 +281,7 @@ nav li:nth-of-type(10) {
 /* --- Sections ------------------------------------ */
 
 section {
-    margin-bottom: 5%;
+    margin-bottom: 5vh;
     width: 100%;
     min-height: 100vh;
     position: relative;
