@@ -1,6 +1,8 @@
 {
-    "topicUrlPath": "http://herosy3.pun.pl/viewtopic.php?id=",
-    "poolUrlPath": "http://herosy3.pun.pl/viewpoll.php?id=",
+    "forumUrl": "http://herosy3.pun.pl/",
+    "topicPath": "viewtopic.php?id=",
+    "topicPidPath": "viewtopic.php?pid=",
+    "poolPath": "viewpoll.php?id=",
 
     "2007": [
         {
@@ -36,9 +38,9 @@
         },
         {
             "date": "24.03.07r.",
-            "id": "http://herosy3.pun.pl/viewpoll.php?id=63",
+            "id": "63",
             "title": "Wywalić wilczura z moderatorstwa?",
-            "addition": "TAK!",
+            "addition": "(ankieta, wynik: TAK!)",
             "type": "poll"
         },
         {
@@ -239,10 +241,10 @@
         },
         {
             "date": "10.03.08r.",
-            "id": "http://herosy3.pun.pl/viewpoll.php?id=442",
+            "id": "id=442",
             "title": "SONDA: Czy admin ma odejść?",
             "crossed": true,
-            "addition": "NIE!",
+            "addition": "(ankieta, wynik: NIE!)",
             "type": "poll"
         },
         {
@@ -317,9 +319,9 @@
         },
         {
             "date": "08.11.08r",
-            "id": "http://herosy3.pun.pl/viewpoll.php?id=605",
+            "id": "605",
             "title": "Moderator (ankieta)",
-            "addition": "wynik: Nerevan (odwołany)",
+            "addition": "(ankieta, wynik: Nerevan (odwołany))",
             "type": "poll"
         },
         {
@@ -338,9 +340,9 @@
         { "date": "23.12.08r.", "id": "679", "title": "Wesołych świąt!" },
         {
             "date": "28.12.08r.",
-            "id": "http://herosy3.pun.pl/viewpoll.php?id=686",
-            "title": "Moderator, (ankieta)",
-            "addition": "wynik: Koragg (zbanowany)",
+            "id": "686",
+            "title": "Moderator",
+            "addition": "(ankieta, wynik: Koragg (zbanowany))",
             "type": "poll"
         }
     ],
@@ -946,8 +948,9 @@
         },
         {
             "date": "17.02.13r.",
-            "id": "pid=37499",
-            "title": "Modernizacja forum oraz Pałacu"
+            "id": "37499",
+            "title": "Modernizacja forum oraz Pałacu",
+            "type": "pid"
         },
         {
             "date": "18.02.13r.",

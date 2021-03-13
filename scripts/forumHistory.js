@@ -1,7 +1,9 @@
 const sectionElements = document.querySelectorAll("section");
 
-let topicUrlPath = "";
-let poolUrlPath = "";
+let forumUrl = "";
+let topicPath = "";
+let poolPath = "";
+let topicPidPath = "";
 
 // Get History Data
 export async function getHistoryData(dataURL) {
@@ -10,15 +12,17 @@ export async function getHistoryData(dataURL) {
             return response.json();
         })
         .then((data) => {
-            topicUrlPath = data["topicUrlPath"];
-            poolUrlPath = data["poolUrlPath"];
+            forumUrl = data["forumUrl"];
+            topicPath = data["topicPath"];
+            poolPath = data["poolPath"];
+            topicPidPath = data["topicPidPath"];
             generateHistoryYearSections(data);
         });
 }
 
 function buildHistoryListItem(forumHistoryYear, list) {
     forumHistoryYear.map((event, index) => {
-        const { date, id, title, addition } = event;
+        const { date, id, title, type, addition } = event;
         const listItem = document.createElement("li");
         listItem.classList.add("history__event");
         const dateSpan = document.createElement("span");
@@ -28,9 +32,11 @@ function buildHistoryListItem(forumHistoryYear, list) {
         topicLink.classList.add("history__event-link");
         const separator = " - ";
         if (event.hasOwnProperty("type")) {
-            topicLink.href = `${poolUrlPath}${id}`;
+            type === "poll"
+                ? (topicLink.href = `${forumUrl}${poolPath}${id}`)
+                : (topicLink.href = `${forumUrl}${topicPidPath}${id}`);
         } else {
-            topicLink.href = `${topicUrlPath}${id}`;
+            topicLink.href = `${forumUrl}${topicPath}${id}`;
         }
         topicLink.textContent = title;
         listItem.append(dateSpan, separator, topicLink);

@@ -5,7 +5,7 @@ const menuBars = document.getElementById("menu-bars");
 const overlay = document.getElementById("overlay");
 const navigationElements = document.querySelectorAll("#navigation > ul > li");
 
-const historyDataURL = "./history-data/history.json";
+const historyDataURL = "./data/history.json";
 
 // On Load
 getHistoryData(historyDataURL);
