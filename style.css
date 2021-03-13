@@ -337,6 +337,90 @@ section .history__text-container .history__text-paragraph--quote {
     font-style: italic;
 }
 
+/* Essay */
+
+.essay-wrapper {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: var(--primaryColor);
+}
+
+.essay {
+    max-width: 75%;
+    min-height: 50%;
+    padding: 20px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: justify;
+}
+
+.essay__back-button {
+    border: 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 48px;
+    cursor: pointer;
+    transition: color 0.3s linear;
+}
+
+.essay__back-button:hover {
+    color: #f6b608;
+}
+
+.essay__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.essay p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: 1.5em;
+}
+
+.essay__signature {
+    text-indent: 0;
+    text-align: right;
+}
+
+.essay__title {
+    text-align: center;
+    color: #f6b608;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.essay__update {
+    font-style: italic;
+}
+
+.essay__date {
+    font-style: italic;
+}
+
+.essay__username {
+}
+
+.essay__important-fragment {
+    text-decoration: underline;
+}
+
+.essay__link a {
+    color: #f6b608;
+}
+
+.essay__link a:hover {
+    filter: brightness(110%);
+}
+
 /* History list elements */
 ul.history__text-list {
     margin: 0;
