@@ -22,15 +22,15 @@ export async function getHistoryData(dataURL) {
 
 function buildHistoryListItem(forumHistoryYear, list) {
     forumHistoryYear.map((event, index) => {
+        // destructurize single events properties
         const { date, id, title, type, addition } = event;
+        // create li and anchor elements)
         const listItem = document.createElement("li");
         listItem.classList.add("history__event");
-        const dateSpan = document.createElement("span");
-        dateSpan.classList.add("history__event-date");
-        dateSpan.textContent = date;
         const topicLink = document.createElement("a");
         topicLink.classList.add("history__event-link");
-        const separator = " - ";
+
+        // fill href attribute of the anchor element, depending on event type (custom topic, topicPID, poll)
         if (event.hasOwnProperty("type")) {
             type === "poll"
                 ? (topicLink.href = `${forumUrl}${poolPath}${id}`)
@@ -38,15 +38,30 @@ function buildHistoryListItem(forumHistoryYear, list) {
         } else {
             topicLink.href = `${forumUrl}${topicPath}${id}`;
         }
-        topicLink.textContent = title;
-        listItem.append(dateSpan, separator, topicLink);
+
+        // create and append obligatory elements inside anchor - date, separator, title
+        const dateSpan = document.createElement("span");
+        dateSpan.classList.add("history__event-date");
+        dateSpan.textContent = date;
+
+        const separator = " - ";
+
+        const titleSpan = document.createElement("span");
+        titleSpan.classList.add("history__event-title");
+        titleSpan.textContent = title;
+
+        topicLink.append(dateSpan, separator, titleSpan);
+
+        // create and append an optional span element inside anchor - additional info
         if (event.hasOwnProperty("addition")) {
             const additionSpan = document.createElement("span");
             additionSpan.classList.add("history__event-addition");
             additionSpan.textContent = addition;
-            listItem.appendChild(additionSpan);
+            topicLink.appendChild(additionSpan);
         }
 
+        // append anchor as li child, next append li as ul child
+        listItem.appendChild(topicLink);
         list.appendChild(listItem);
     });
 }

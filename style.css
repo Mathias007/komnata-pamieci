@@ -318,6 +318,15 @@ section .history__text-container .history__text-header {
     color: #f6b608;
 }
 
+section .history__text-container .history__text-header a {
+    color: #f6b608;
+    text-decoration: none;
+}
+
+section .history__text-container .history__text-header a:hover {
+    text-decoration: underline;
+}
+
 section .history__text-container .history__text-paragraph {
     text-align: justify;
     color: #fff;
@@ -353,28 +362,36 @@ li.history__event:nth-of-type(even) {
 }
 
 span.history__event-date {
-    font-weight: bold;
 }
 
 a.history__event-link {
-    color: #f6b620;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
     text-decoration: none;
+    transition: all 0.1s linear;
 }
 
 li.history__event:hover,
 a.history__event-link:hover {
     cursor: pointer;
     filter: brightness(110%);
+    font-weight: bold;
 }
 
-span.history__event-addition {
+.history__event-title {
+    color: #f6b608;
+}
+
+.history__event-addition {
     padding-left: 2px;
     color: rgb(219, 219, 219);
     opacity: 0;
     transition: opacity 0.3s linear;
 }
 
-.history__event:hover > .history__event-addition {
+.history__event-link:hover > .history__event-addition {
     opacity: 1;
 }
 
