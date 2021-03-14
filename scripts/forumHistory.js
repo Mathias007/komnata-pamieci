@@ -12,10 +12,13 @@ export async function getHistoryData(dataURL) {
             return response.json();
         })
         .then((data) => {
+            // save path data to variables
             forumUrl = data["forumUrl"];
             topicPath = data["topicPath"];
             poolPath = data["poolPath"];
             topicPidPath = data["topicPidPath"];
+
+            // call functions to generate history using received data
             generateHistoryYearSections(data);
         });
 }
@@ -31,12 +34,19 @@ function buildHistoryListItem(forumHistoryYear, list) {
         topicLink.classList.add("history__event-link");
 
         // fill href attribute of the anchor element, depending on event type (custom topic, topicPID, poll)
-        if (event.hasOwnProperty("type")) {
-            type === "poll"
-                ? (topicLink.href = `${forumUrl}${poolPath}${id}`)
-                : (topicLink.href = `${forumUrl}${topicPidPath}${id}`);
+        if (!event.hasOwnProperty("specialField")) {
+            if (event.hasOwnProperty("type")) {
+                type === "poll"
+                    ? (topicLink.href = `${forumUrl}${poolPath}${id}`)
+                    : (topicLink.href = `${forumUrl}${topicPidPath}${id}`);
+            } else {
+                listItem.href = `${forumUrl}${topicPath}${id}`;
+            }
         } else {
-            topicLink.href = `${forumUrl}${topicPath}${id}`;
+            topicLink.classList.replace(
+                "history__event-link",
+                "history__event-special-field"
+            );
         }
 
         // create and append obligatory elements inside anchor - date, separator, title
@@ -71,9 +81,8 @@ function generateHistoryYearSections(forumHistory) {
         sectionElements.forEach((section, index) => {
             const list = section.querySelector(".history__text-list");
             if (Object.keys(forumHistory).includes(section.id)) {
+                // call function to build DOM using data of each section
                 buildHistoryListItem(forumHistory[section.id], list);
-            } else {
-                console.log("Nie znaleziono danych pod pobranym kluczem");
             }
         });
     }
