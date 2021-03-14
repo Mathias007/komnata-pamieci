@@ -434,6 +434,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px 10px;
+    justify-content: center;
 }
 
 .changelog__change-element {
@@ -513,6 +514,24 @@ section {
 
 .history__event-link:hover > .history__event-addition {
     opacity: 1;
+}
+
+/* ---- Copyright Container ---- */
+.history__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.history__copyright a {
+    color: var(--specialColor);
+    text-decoration: none;
+}
+
+.history__copyright a:hover {
+    filter: var(--filter);
 }
 
 /* Media Query: Large Smartphone (Vertical) */

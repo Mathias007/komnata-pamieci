@@ -1,6 +1,7 @@
 import { toggleNav } from "./navigation.js";
 import { getHistoryData } from "./forumHistory.js";
 import { getChangelogData } from "./pageChangelog.js";
+import { generateCopyright } from "./copyright.js";
 
 const menuBars = document.getElementById("menu-bars");
 const overlay = document.getElementById("overlay");
@@ -12,6 +13,7 @@ const changesDataURL = "./data/changelog.json";
 // On Load
 getHistoryData(historyDataURL);
 getChangelogData(changesDataURL);
+generateCopyright();
 
 // Event Listeners
 menuBars.addEventListener("click", () => toggleNav(menuBars, overlay));
