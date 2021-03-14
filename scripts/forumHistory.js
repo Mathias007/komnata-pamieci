@@ -40,7 +40,7 @@ function buildHistoryListItem(forumHistoryYear, list) {
                     ? (topicLink.href = `${forumUrl}${poolPath}${id}`)
                     : (topicLink.href = `${forumUrl}${topicPidPath}${id}`);
             } else {
-                listItem.href = `${forumUrl}${topicPath}${id}`;
+                topicLink.href = `${forumUrl}${topicPath}${id}`;
             }
         } else {
             topicLink.classList.replace(
