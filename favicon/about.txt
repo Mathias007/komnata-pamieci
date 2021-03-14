@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Fenix
+- Font Author: Copyright (c) 2012, Fernando Diaz (www.ferfolio.com) with Reserved Font Name 'Fenix'
+- Font Source: http://fonts.gstatic.com/s/fenix/v8/XoHo2YL_S7-g5ostKzAFvs8o.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
