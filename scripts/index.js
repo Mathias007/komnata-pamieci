@@ -1,14 +1,17 @@
 import { toggleNav } from "./navigation.js";
 import { getHistoryData } from "./forumHistory.js";
+import { getChangelogData } from "./pageChangelog.js";
 
 const menuBars = document.getElementById("menu-bars");
 const overlay = document.getElementById("overlay");
 const navigationElements = document.querySelectorAll("#navigation > ul > li");
 
 const historyDataURL = "./data/history.json";
+const changesDataURL = "./data/changelog.json";
 
 // On Load
 getHistoryData(historyDataURL);
+getChangelogData(changesDataURL);
 
 // Event Listeners
 menuBars.addEventListener("click", () => toggleNav(menuBars, overlay));
