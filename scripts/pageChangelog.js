@@ -13,8 +13,6 @@ export async function getChangelogData(dataURL) {
 
 function generateChangelog(changes) {
     Object.entries(changes).forEach(([version, info]) => {
-        console.log(`Wersja nr ${version} - ${info["date"]}`);
-
         // Create DOM elements (and separator string)
         const changeElement = document.createElement("div");
         const changeHeader = document.createElement("h3");
@@ -37,8 +35,6 @@ function generateChangelog(changes) {
 
         // Iterating changes array, create list elements and append them to the list as children
         info["changes"].forEach((change, index) => {
-            console.log(`zmiana nr ${index}:`, change);
-
             const singleChangeElement = document.createElement("li");
             singleChangeElement.classList.add("change-element__item");
             singleChangeElement.textContent = change;

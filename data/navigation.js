@@ -68,7 +68,7 @@ export const navigation = [
     {
         id: "nav-11",
         initialClass: "slide-out-11",
-        href: "#this-page-history",
+        href: "#this-page-story",
         name: "Rozwój Komnaty Pamięci",
     },
 ];
