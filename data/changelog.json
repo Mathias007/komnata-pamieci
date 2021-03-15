@@ -90,5 +90,16 @@
             "Dodanie kronik: roku 2011, 2012, 2013 i aktualizacja Historii Forum o lata 2010-12",
             "Rozpoczęcie spisywania dziejów Kronik Heroes na podstawie newsów (finał ewolucji)."
         ]
+    },
+    "2.00": {
+        "date": "marzec 2021r.",
+        "changes": [
+            "Utworzenie samodzielnej aplikacji internetowej dla prezentacji historii forum",
+            "Zrefaktoryzowany i rozbudowany kod, implementacja współczesnych rozwiązań webowych",
+            "Dynamicznie generowane listy newsów z poszczególnych lat pobierane z pliku .json",
+            "Estetyczna, czytelna i responsywna struktura oraz styl strony, animowane menu",
+            "Odrębna podstrona dla eseju Historia forum",
+            "Repozytorium GitHub."
+        ]
     }
 }
