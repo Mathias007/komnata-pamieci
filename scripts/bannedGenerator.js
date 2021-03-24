@@ -1,6 +1,6 @@
 const tableBody = document.getElementById("tableBody");
 
-const bannedDataURL = "./data/banned.json";
+const bannedDataURL = "../data/banned.json";
 
 let userProfilePath = "";
 
