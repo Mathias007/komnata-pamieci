@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pręgierz</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        />
+    </head>
+    <body>
+        <div class="banned-wrapper">
+            <section class="banned">
+                <div class="banned__header">
+                    <!-- Go Back -->
+                    <button
+                        onClick="history.back();"
+                        class="banned__back-button"
+                    >
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+
+                    <h1 class="banned__title">
+                        Pręgierz - osoby wygnane z Królestwa
+                    </h1>
+                </div>
+                <div class="table">
+                    <table class="fame__table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    L.P.
+                                </th>
+                                <th>
+                                    Nick
+                                </th>
+                                <th>
+                                    Data
+                                </th>
+                                <th>
+                                    Powód
+                                </th>
+                                <th>
+                                    Wystawiający
+                                </th>
+                                <th>
+                                    Status
+                                </th>
+                                <th>
+                                    Uwagi
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody"></tbody>
+                    </table>
+                    <div class="banned__legend" id="legend"></div>
+                </div>
+            </section>
+        </div>
+        <script src="../scripts/fameGenerator.js"></script>
+    </body>
+</html>
