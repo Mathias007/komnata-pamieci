@@ -68,6 +68,12 @@ export const navigation = [
     {
         id: "nav-11",
         initialClass: "slide-out-11",
+        href: "#banned",
+        name: "Pręgierz",
+    },
+    {
+        id: "nav-12",
+        initialClass: "slide-out-12",
         href: "#this-page-story",
         name: "Rozwój Komnaty Pamięci",
     },
