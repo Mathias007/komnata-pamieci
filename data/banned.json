@@ -1,0 +1,379 @@
+{
+    "userProfilePath": "http://www.herosy3.pun.pl/viewtopic.php?id=",
+
+    "bansLegend": [
+        "PiG, koragg i jego multikonta",
+        "Inne bany stałe",
+        "Osoby zrehabilitowane/bany zdjęte"
+    ],
+
+    "bannedUsersArray": [
+        {
+            "number": 1,
+            "userID": 23,
+            "userName": "nóP",
+            "banDate": "8.04.2007r.",
+            "reason": "Próba wyłudzenia kopii Heroes 3, propagowanie piractwa, używanie wulgaryzmów, obraza forum.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": "Pierwszy ban wystawiony na tym forum."
+        },
+        {
+            "number": 2,
+            "userID": 9,
+            "userName": "chopin",
+            "banDate": "10.05.2007r.",
+            "reason": "Obrażanie innych w sygnaturze i wiadomościach, prowokacje, próba skasowania wszystkich swoich postów, podszywanie się pod Administratora (multikonto).",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "Zdjęty warunkowo (16.05.07r.)",
+            "comment": "Powód zdjęcia:przeprosił i obiecał poprawę pod groźbą bana przy każdym kolejnym wyskoku."
+        },
+        {
+            "number": 3,
+            "userID": null,
+            "userName": "Mathias2",
+            "banDate": "10.05.2007r.",
+            "reason": "Drugie konto chopina + obrażanie.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 4,
+            "userID": null,
+            "userName": "wicha",
+            "banDate": "11.08.2007r.",
+            "reason": "Linki bez zgody Admina w SB (0 postów).",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 5,
+            "userID": null,
+            "userName": "Demeter",
+            "banDate": "11.08.2007r.",
+            "reason": "Obrażanie forum w SB (0 postów).",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 6,
+            "userID": 102,
+            "userName": "Pain",
+            "banDate": "05.11.2007r.",
+            "reason": "Obrażanie Administratora, brak poszanowania dla cudzego zdania.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": ""
+        },
+        {
+            "number": 7,
+            "userID": null,
+            "userName": "vax",
+            "banDate": "23.11.2007r.",
+            "reason": "Reklamowanie innych stron (1 post).",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 8,
+            "userID": 142,
+            "userName": "redgreen",
+            "banDate": "02.12.2007r.",
+            "reason": "Obrażanie innych, brak poszanowania dla cudzego zdania, spamowanie, chamstwo.",
+            "issuerName": "PlaceK",
+            "issuerID": 121,
+            "banStatus": "stały",
+            "comment": ""
+        },
+        {
+            "number": 9,
+            "userID": null,
+            "userName": "adek24",
+            "banDate": "05.02.2008r.",
+            "reason": "Reklamowanie innych stron (1 post).",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 10,
+            "userID": null,
+            "userName": "HeroldGKH",
+            "banDate": "13.09.2008r.",
+            "reason": "Reklamowanie innych stron (1 post).",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 11,
+            "userID": 9,
+            "userName": "chopin",
+            "banDate": "28.11.2008r.",
+            "reason": "Ponowny ban - obrażanie Administratora.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "Zdjęty warunkowo (14.05.10r.)",
+            "comment": "Powód zdjęcia: Amnestia."
+        },
+        {
+            "number": 12,
+            "userID": 271,
+            "userName": "j@kubek",
+            "banDate": "1.01.2009r.",
+            "reason": "Używanie wulgaryzmów, obrażanie forum i userów, skompletowanie 9 minusów za upomnienia.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "Zdjęty warunkowo (28.03.09r.)",
+            "comment": "Powód zdjęcia: przeprosił i obiecał poprawę, ale przy każdym kolejnym wyskoku - ban"
+        },
+        {
+            "number": 13,
+            "userID": 315,
+            "userName": "altaeir",
+            "banDate": "23.02.2009r.",
+            "reason": "Obrażanie Administratora, liczne kłótnie.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "Zdjęty bezwarunkowo (02.06.09r.)",
+            "comment": "Ban został podyktowany przez Dreadera, koragga i ich multikonta, więc nie był on zbyt uczciwy. Powodem zdjęcia było porozumienie między userem a Administratorem i podanie sobie rąk."
+        },
+        {
+            "number": 14,
+            "userID": null,
+            "userName": "lodzik",
+            "banDate": "22.04.2009r.",
+            "reason": "Spam, wulgarność, skrajny debilizm.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": "Jest to jedno z multikont Dreadera lub Drago."
+        },
+        {
+            "number": 15,
+            "userID": 307,
+            "userName": "Dreader",
+            "banDate": "27.04.2009r.",
+            "reason": "Podszywanie się pod moderatora CH3, spammerski atak z multikont (owsik) + masa innych wykroczeń.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": "NEWS: 'Co się tyczy Dreadera'"
+        },
+        {
+            "number": 16,
+            "userID": 272,
+            "userName": "Magyar",
+            "banDate": "10.08.2009r.",
+            "reason": "Niesłuszne oskarżenie go o multikonta, spammerstwo, obrażanie, wulgaryzmy.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "Zdjęty bezwarunkowo (24.08.09r.)",
+            "comment": "Ban okazał się całkowitym nieporozumieniem. User został wrobiony przez Drago w coś, czego nie zrobił. Należą mu się przeprosiny ze strony Administracji za tę krzywdzącą pomyłkę."
+        },
+
+        {
+            "number": 17,
+            "userID": null,
+            "userName": "Thane",
+            "banDate": "10.08.2009r.",
+            "reason": "Kompletny idiotyzm, wulgarność.",
+            "issuerName": "Koragg",
+            "issuerID": 191,
+            "banStatus": "skasowany",
+            "comment": "Istnieje duże prawdopodobieństwo, iż jest to jedno z multikont Dreadera lub Drago."
+        },
+        {
+            "number": 18,
+            "userID": 460,
+            "userName": "Soran",
+            "banDate": "17.08.2009r.",
+            "reason": "Chamstwo, wulgarność, głupota, dziecinne 'zemsty' (wyłączenie reputacji, wpisanie w profilu gg Admina jako swojego), Zebranie 10 minusów, multikonto Dreadera.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": "Pierwsze zbanowane ważniejsze multikonto Dreadera..."
+        },
+
+        {
+            "number": 19,
+            "userID": [482, 484, 329, 391, 434],
+            "userName": [
+                "Solmyr",
+                "Moandor",
+                "Yautja",
+                "Nazgul",
+                "Alternative"
+            ],
+            "banDate": "09.10.2009r.",
+            "reason": "Multikonta Dreadera (PiG'a).",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": "NEWS: 'Owsik - Skingdom - Joker: rozwikładnie tajemnicy'"
+        },
+        {
+            "number": 20,
+            "userID": null,
+            "userName": "FORTECA_FAN",
+            "banDate": "14.10.2009r.",
+            "reason": "Wulgaryzmy, obrażanie forum.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 21,
+            "userID": [553, 545, 542, 291, 559, 334],
+            "userName": [
+                "Griffin",
+                "Dai Shi",
+                "Cerberus",
+                "Anubis",
+                "Inioch",
+                "Kain"
+            ],
+            "banDate": "22.11.2009r.",
+            "reason": "Multikonta Dreadera.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": "NEWS: 'Rozwiązanie afery owsikowej'"
+        },
+        {
+            "number": 22,
+            "userID": 576,
+            "userName": "Zydar Heretyk",
+            "banDate": "01.12.2009r.",
+            "reason": "Multikonto Dreadera, chamstwo.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": ""
+        },
+        {
+            "number": 23,
+            "userID": [191, 322],
+            "userName": ["Zen Aku", "Drago"],
+            "banDate": "03.12.2009r.",
+            "reason": "Multikonta.",
+            "issuerName": "Mathias",
+            "issuerID": 2,
+            "banStatus": "stały",
+            "comment": "NEWS: 'Afera owsikowa - ,,Missing Pieces'"
+        },
+        {
+            "number": 24,
+            "userID": null,
+            "userName": "Fox",
+            "banDate": "01.01.2010r.",
+            "reason": "Multikonto Drago/koragga, groźby, obrażanie.",
+            "issuerName": "Pandrodor",
+            "issuerID": 118,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 25,
+            "userID": 599,
+            "userName": "Sideways",
+            "banDate": "02.01.2010r.",
+            "reason": "Multikonto PiG'a.",
+            "issuerName": "Pandrodor",
+            "issuerID": 118,
+            "banStatus": "stały",
+            "comment": "Że też mu/im się nie znudziło..."
+        },
+        {
+            "number": 26,
+            "userID": 271,
+            "userName": "j@kubek",
+            "banDate": "03.01.2010r.",
+            "reason": "Ponowny ban - posiadanie multikonta (crazy'olka), obrażanie forum i userów na AW.",
+            "issuerName": "Pandrodor",
+            "issuerID": 118,
+            "banStatus": "stały",
+            "comment": "NEWS: 'Co się tyczy j@kubka'. Wygląda na to, że jego przeprosiny były zakłamane..."
+        },
+        {
+            "number": 27,
+            "userID": 299,
+            "userName": "crazy'olka",
+            "banDate": "03.01.2010r.",
+            "reason": "Multikonto j@kubka.",
+            "issuerName": "Pandrodor",
+            "issuerID": 118,
+            "banStatus": "stały",
+            "comment": ""
+        },
+        {
+            "number": 28,
+            "userID": 600,
+            "userName": "Thunderbird",
+            "banDate": "01.02.2010r.",
+            "reason": "Multikonto PiG'a.",
+            "issuerName": "Pandrodor",
+            "issuerID": 118,
+            "banStatus": "stały",
+            "comment": ""
+        },
+        {
+            "number": 29,
+            "userID": 609,
+            "userName": "esis1",
+            "banDate": "07.02.2010r.",
+            "reason": "Multikonto PiG'a.",
+            "issuerName": "Pandrodor",
+            "issuerID": 118,
+            "banStatus": "stały",
+            "comment": ""
+        },
+        {
+            "number": 30,
+            "userID": null,
+            "userName": "Img",
+            "banDate": "12.03.2010r.",
+            "reason": "Pojawił się tylko po to, aby zareklamować jakieś forum.",
+            "issuerName": "Olórin",
+            "issuerID": 502,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 31,
+            "userID": null,
+            "userName": "8Dymek8",
+            "banDate": "16.03.2010r.",
+            "reason": "Reklamowanie innych stron (1 post).",
+            "issuerName": "Olórin",
+            "issuerID": 502,
+            "banStatus": "skasowany",
+            "comment": ""
+        },
+        {
+            "number": 32,
+            "userID": null,
+            "userName": "rootpl",
+            "banDate": "11.08.2011r.",
+            "reason": "Reklamowanie innych stron (1 post).",
+            "issuerName": "Olórin",
+            "issuerID": 502,
+            "banStatus": "skasowany",
+            "comment": ""
+        }
+    ]
+}
