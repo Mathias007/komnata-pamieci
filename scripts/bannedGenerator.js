@@ -36,7 +36,9 @@ function generateBannedTable(bannedUsersData) {
 
         // Create row
         const rowElement = document.createElement("tr");
-        rowElement.textContent = number;
+
+        const positionNumber = document.createElement("td");
+        positionNumber.textContent = `${number}.`;
 
         const userDrawer = document.createElement("td");
         if (typeof userID === "number") {
@@ -49,8 +51,11 @@ function generateBannedTable(bannedUsersData) {
                 const userLink = document.createElement("a");
                 userLink.href = `${userProfilePath}${id}`;
                 userLink.textContent = userName[index];
-                userDrawer.appendChild(userLink);
+                const userSeparator = document.createElement("br");
+                userDrawer.append(userLink, userSeparator);
             });
+        } else {
+            userDrawer.textContent = userName;
         }
 
         const dateDrawer = document.createElement("td");
@@ -72,6 +77,7 @@ function generateBannedTable(bannedUsersData) {
         commentDrawer.textContent = comment;
 
         rowElement.append(
+            positionNumber,
             userDrawer,
             dateDrawer,
             reasonDrawer,
