@@ -514,6 +514,13 @@ section {
 }
 
 /* ---- Banned Table ---- */
+
+.banned__table {
+    width: 100%;
+    table-layout: fixed;
+    word-break: break-all;
+}
+
 .banned__table a {
     color: var(--specialColor);
     text-decoration: none;
@@ -580,6 +587,17 @@ section {
 /* Media Query: lists on smaller screens */
 
 @media (max-width: 1100px) {
+    .banned__table th:nth-of-type(1),
+    .banned__table th:nth-of-type(3),
+    .banned__table th:nth-of-type(5),
+    .banned__table th:nth-of-type(6), 
+    .banned__table td:nth-of-type(1),
+    .banned__table td:nth-of-type(3),
+    .banned__table td:nth-of-type(5),
+    .banned__table td:nth-of-type(6) {
+        display: none;
+    }
+
     .history__text-list {
         grid-template-columns: repeat(2, 1fr);
     }
